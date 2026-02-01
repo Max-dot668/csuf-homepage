@@ -1,35 +1,65 @@
 body {
-    display: felx;
+    display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #F5F7FA;
+    min-height: 100vh;
 }
 
 img {
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 
 .hero {
     background-color: #00244E;
-    color: #FFFFFF; 
     text-shadow: 0 0 3px black;
-    padding: 10px;
+    color: #FFFFFF;
+    padding: 50px 20px;
 }
 
 .activities {
-    
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+.activities h2 {
+    margin-bottom: 30px;
 }
 
 .guide {
-    border: 2px dotted blue;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFBFF;
+    font-style: italic;
+    padding: 40px 20px;
+    margin-top: auto;
 }
 
 .csuf-title-logo {
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
-#title-color-two {
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#titan-orange {
     color: #FF7900;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
 }
