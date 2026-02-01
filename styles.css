@@ -23,6 +23,7 @@ img {
 
 .guide {
     border: 2px dotted blue;
+    display: flex;
 }
 
 .csuf-title-logo {
